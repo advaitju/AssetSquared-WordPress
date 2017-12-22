@@ -400,6 +400,7 @@ input.form-control[disabled], input.form-control[readonly] {
 .navbar {
 	background-color: transparent;
 	border: 0;
+	margin-top: 20px;
 	.logo {
 		max-height: 100%;
 	}
@@ -772,6 +773,15 @@ a, button {
 	height: 100%;
 	top: 0;
 	left: 0;
+}
+.asq-gold-highlight {
+	color: $asq-gold-highlight;
+}
+.blue-highlight {
+	color: $blue-highlight;
+}
+.red-highlight {
+	color: $red-highlight;
 }
 
 // 7. Media queries
