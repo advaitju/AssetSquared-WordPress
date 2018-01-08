@@ -326,10 +326,6 @@ input.form-control[disabled], input.form-control[readonly] {
 	padding: 7px 30px 4px;
 	border: 0;
 }
-.btn-asq-gold {
-	@include button-asq-gold-highlight;
-	@include button-dropdown-modifier($asq-gold-highlight, 16px, 800);
-}
 .btn-primary {
 	@include button-blue-highlight;
 	@include button-dropdown-modifier($blue-highlight, 16px, 800);
@@ -679,6 +675,14 @@ a, button {
 		}
 	}
 }
+.icon-wrapper {
+	text-align: center;
+	margin: 25px 0 0;
+	.icon {
+		width: 70px;
+		margin-bottom: 10px;
+	}
+}
 .tile {
 	padding: 35px;
 	border-radius: 10px;
@@ -697,14 +701,6 @@ a, button {
 	}
 	h1 {
 		font-size: 32px;
-	}
-	.icon-wrapper {
-		text-align: center;
-		margin: 25px 0 0;
-		.icon {
-			width: 70px;
-			margin-bottom: 10px;
-		}
 	}
 	.overlay {
 		background-color: rgba(0,0,0,0.8);
@@ -821,6 +817,16 @@ a, button {
 }
 .red-highlight {
 	color: $red-highlight;
+}
+.btn-asq-gold {
+	@include button-asq-gold-highlight;
+	@include button-dropdown-modifier($asq-gold-highlight, 16px, 800);
+}
+.btn-pill {
+	border-radius: 30px;
+}
+.asq-gold-glow {
+	box-shadow: 0 0 20px $asq-gold-highlight;
 }
 
 // 7. Media queries

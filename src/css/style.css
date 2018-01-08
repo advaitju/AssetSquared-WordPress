@@ -105,19 +105,6 @@ input.form-control[disabled], input.form-control[readonly] {
   .btn:focus, .btn:active, .btn:hover, .btn-default:focus, .btn-default:active, .btn-default:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:hover, .btn-success:focus, .btn-success:active, .btn-success:hover, .btn-info:focus, .btn-info:active, .btn-info:hover, .btn-warnig:focus, .btn-warnig:active, .btn-warnig:hover, .btn-danger:focus, .btn-danger:active, .btn-danger:hover {
     outline: 0; }
 
-.btn-asq-gold {
-  background-color: #FFC63E; }
-  .btn-asq-gold:hover, .btn-asq-gold:active, .btn-asq-gold:focus {
-    background-color: #d79800; }
-  .btn-asq-gold.dropdown-toggle + .dropdown-menu {
-    background-color: #FFC63E; }
-    .btn-asq-gold.dropdown-toggle + .dropdown-menu .divider {
-      background-color: #070707; }
-    .btn-asq-gold.dropdown-toggle + .dropdown-menu > li > a {
-      font-size: 16px;
-      font-weight: 800;
-      color: #070707; }
-
 .btn-primary {
   background-color: #4fa0e6; }
   .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
@@ -454,6 +441,13 @@ a, button {
   margin-top: 0;
   margin-bottom: 0; }
 
+.icon-wrapper {
+  text-align: center;
+  margin: 25px 0 0; }
+  .icon-wrapper .icon {
+    width: 70px;
+    margin-bottom: 10px; }
+
 .tile {
   padding: 35px;
   border-radius: 10px;
@@ -470,12 +464,6 @@ a, button {
     z-index: 2; }
   .tile h1 {
     font-size: 32px; }
-  .tile .icon-wrapper {
-    text-align: center;
-    margin: 25px 0 0; }
-    .tile .icon-wrapper .icon {
-      width: 70px;
-      margin-bottom: 10px; }
   .tile .overlay {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
@@ -634,5 +622,24 @@ a, button {
 
 .red-highlight {
   color: #e45353; }
+
+.btn-asq-gold {
+  background-color: #FFC63E; }
+  .btn-asq-gold:hover, .btn-asq-gold:active, .btn-asq-gold:focus {
+    background-color: #d79800; }
+  .btn-asq-gold.dropdown-toggle + .dropdown-menu {
+    background-color: #FFC63E; }
+    .btn-asq-gold.dropdown-toggle + .dropdown-menu .divider {
+      background-color: #070707; }
+    .btn-asq-gold.dropdown-toggle + .dropdown-menu > li > a {
+      font-size: 16px;
+      font-weight: 800;
+      color: #070707; }
+
+.btn-pill {
+  border-radius: 30px; }
+
+.asq-gold-glow {
+  box-shadow: 0 0 20px #FFC63E; }
 
 /*# sourceMappingURL=style.css.map */
