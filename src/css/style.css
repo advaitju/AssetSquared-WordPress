@@ -610,7 +610,11 @@ a, button {
 .asset-class-grid {
   margin-bottom: 45px; }
   .asset-class-grid .asset-class-name {
+    font-size: 22px;
     word-wrap: break-word; }
+    @media (max-width: 500px) {
+      .asset-class-grid .asset-class-name {
+        font-size: 18px; } }
 
 .text-emphasis {
   font-weight: 900;
