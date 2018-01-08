@@ -454,34 +454,36 @@ a, button {
   margin-top: 0;
   margin-bottom: 0; }
 
+.tile {
+  padding: 35px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%; }
+  .tile > *:first-child {
+    margin-top: 0px; }
+  .tile * {
+    position: relative;
+    z-index: 2; }
+  .tile h1 {
+    font-size: 32px; }
+  .tile .icon-wrapper {
+    text-align: center;
+    margin: 25px 0 0; }
+    .tile .icon-wrapper .icon {
+      width: 70px;
+      margin-bottom: 10px; }
+  .tile .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute; }
+
 .tiled-col {
   margin-bottom: 30px; }
-  .tiled-col .tile {
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 100%; }
-    .tiled-col .tile > *:first-child {
-      margin-top: 0px; }
-    .tiled-col .tile * {
-      position: relative;
-      z-index: 2; }
-    .tiled-col .tile h1 {
-      font-size: 32px; }
-    .tiled-col .tile .icon-wrapper {
-      text-align: center;
-      margin: 15px 0; }
-      .tiled-col .tile .icon-wrapper .icon {
-        width: 70px; }
-    .tiled-col .tile .overlay {
-      background-color: rgba(0, 0, 0, 0.8);
-      border-radius: 10px;
-      z-index: 1;
-      position: absolute; }
 
 .investment-detailed-summary .square-price-movement .square-icon {
   width: 16px;

@@ -679,41 +679,42 @@ a, button {
 		}
 	}
 }
-.tiled-col {
-	margin-bottom: 30px;
-	.tile {
-		padding: 25px;
-		border-radius: 10px;
-		border: 1px solid #fff;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
+.tile {
+	padding: 35px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 100%;
+	&>*:first-child {
+		margin-top: 0px;
+	}
+	& * {
 		position: relative;
-		height: 100%;
-		&>*:first-child {
-			margin-top: 0px;
-		}
-		& * {
-			position: relative;
-			z-index: 2;
-		}
-		h1 {
-			font-size: 32px;
-		}
-		.icon-wrapper {
-			text-align: center;
-			margin: 15px 0;
-			.icon {
-				width: 70px;
-			}
-		}
-		.overlay {
-			background-color: rgba(0,0,0,0.8);
-			border-radius: 10px;
-			z-index: 1;
-			position: absolute;
+		z-index: 2;
+	}
+	h1 {
+		font-size: 32px;
+	}
+	.icon-wrapper {
+		text-align: center;
+		margin: 25px 0 0;
+		.icon {
+			width: 70px;
+			margin-bottom: 10px;
 		}
 	}
+	.overlay {
+		background-color: rgba(0,0,0,0.8);
+		border-radius: 10px;
+		z-index: 1;
+		position: absolute;
+	}
+}
+.tiled-col {
+	margin-bottom: 30px;
 }
 
 // Molecules
