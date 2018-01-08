@@ -445,6 +445,7 @@ a, button {
   text-align: center;
   margin: 25px 0 0; }
   .icon-wrapper .icon {
+    fill: #fff;
     width: 70px;
     margin-bottom: 10px; }
 
@@ -472,6 +473,10 @@ a, button {
 
 .tiled-col {
   margin-bottom: 30px; }
+
+.square-intro {
+  margin-top: 30px;
+  margin-bottom: 60px; }
 
 .investment-detailed-summary .square-price-movement .square-icon {
   width: 16px;
@@ -601,6 +606,11 @@ a, button {
 .transactions .transaction-amount {
   text-align: right;
   margin-right: 10px; }
+
+.asset-class-grid {
+  margin-bottom: 45px; }
+  .asset-class-grid .asset-class-name {
+    word-wrap: break-word; }
 
 .text-emphasis {
   font-weight: 900;

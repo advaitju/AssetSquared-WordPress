@@ -679,6 +679,7 @@ a, button {
 	text-align: center;
 	margin: 25px 0 0;
 	.icon {
+		fill: #fff;
 		width: 70px;
 		margin-bottom: 10px;
 	}
@@ -711,6 +712,10 @@ a, button {
 }
 .tiled-col {
 	margin-bottom: 30px;
+}
+.square-intro {
+	margin-top: 30px;
+	margin-bottom: 60px;
 }
 
 // Molecules
@@ -794,6 +799,14 @@ a, button {
 		text-align: right;
 		margin-right: 10px;
 	}
+}
+.asset-class-grid {
+	margin-bottom: 45px;
+	.asset-class-name {
+		word-wrap: break-word;
+	}
+}
+.conversion-form {
 }
 
 // 5. Page specific sections
