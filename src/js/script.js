@@ -1,5 +1,3 @@
 $( document ).ready(function() {
-
-  // Your code here
-
+	$('.tiled-col').matchHeight();
 });
